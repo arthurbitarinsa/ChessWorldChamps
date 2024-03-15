@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,0,156,0.6890405820531338) 35%, rgba(0,212,255,1) 100%);
+    height: 160px;
+    max-width: 100%;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    .round-corner {
+      background-image: url(https://chessdailynews.com/wp-content/uploads/2017/01/Fide-LOGO.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150px;
+        width: 150px;
+        background-color: red;
+        border-radius: 100%;
+    }
+
+   
+
+}
+
+main {
+    max-width: 100%;
+    height: auto;
+     display: flex;
+    justify-content: center;
+
+    article{
+       display: grid;
+       grid-template-columns: repeat(5, 1fr);
+       gap: 20px;
+       
+       .article1,.article2,.article3,.article4,
+       .article5,.article6,.article7,.article8,.article9,
+       .article10 {
+        background-color: pink;
+      //   border: 5px dotted black;
+      border: 1px solid black;
+        height: 500px ;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+        .article1{
+           .round-pic{
+            background-image: url(https://images.chesscomfiles.com/uploads/v1/master_player/00ffadde-d6a8-11e8-bdb9-933b839db343.31293b1e.1200x1200o.2bf9dd442fdd.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 200px;
+            width: 200px;
+            border-radius: 100%; 
+            border: 3px solid black;
+           } 
+
+           .players {
+            padding: 20px;
+
+           
+           }
+        }
+        
+        .article2{
+         .round-pic{
+          background-image: url(https://images.chesscomfiles.com/uploads/v1/master_player/00ffadde-d6a8-11e8-bdb9-933b839db343.31293b1e.1200x1200o.2bf9dd442fdd.jpeg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 200px;
+          width: 200px;
+          border-radius: 100%; 
+          border: 3px solid black;
+         } 
+
+      
+      }
+
+
+         .article3{
+            .round-pic{
+             background-image: url(https://im.rediff.com/sports/2017/jul/21anand1.jpg?w=670&h=900);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+             width: 200px;
+             border-radius: 100%;
+ 
+            } 
+         }
+
+         .article4{
+            .round-pic{
+             background-image: url(https://veja.abril.com.br/wp-content/uploads/2017/08/gary-kasparov.jpg?quality=70&strip=all&resize=360);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+             width: 200px;
+             border-radius: 100%;
+ 
+            } 
+         }
+
+         .article5{
+            .round-pic{
+             background-image: url(https://vz.cnwimg.com/wp-content/uploads/2014/10/Anatoly-Karpov.jpg);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+             width: 200px;
+             border-radius: 100%;
+ 
+            } 
+         }
+
+         .article6{
+            .round-pic{
+             background-image: url(https://s.hdnux.com/photos/07/16/64/1895738/7/920x920.jpg);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+             width: 200px;
+             border-radius: 100%;
+ 
+            } 
+         }
+
+         .article7{
+            .round-pic{
+             background-image: url(https://media.gettyimages.com/id/954975556/photo/boris-spassky.jpg?s=1024x1024&w=gi&k=20&c=C-Gj8gEzosPI_JrIqEF-R9yMT4aRxifHsqi-Xw9gj-k=);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+             width: 200px;
+             border-radius: 100%;
+ 
+            } 
+         }
+
+         .article8{
+            .round-pic{
+             background-image: url(https://cbin.b-cdn.net/img/TI/Tigran%20Petrosian_K9505_1000x660.jpeg);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+             width: 200px;
+             border-radius: 100%;
+ 
+            } 
+         }
+
+         .article9{
+            .round-pic{
+             background-image: url(https://chessentials.com/storage/2019/02/tal.jpg);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+             width: 200px;
+             border-radius: 100%;
+ 
+            } 
+         }
+
+         .article10{
+            .round-pic{
+             background-image: url(https://images.chesscomfiles.com/uploads/v1/master_player/7c5b8cb6-bfe5-11e8-a1be-23ba32ed5432.5aab5555.1200x1200o.d0c484ed15aa.jpeg);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+             width: 200px;
+             border-radius: 100%;
+ 
+            } 
+         }
+    }
+}
+
+    
+
+
+
+/**************RESPONSIVENESS************/
+
+
+@media (max-width: 1100px) {
+   main {
+      article{
+         display: grid;
+         grid-template-columns: repeat(4, 1fr)
+      }
+   }
+}
+
+@media (max-width: 900px) {
+   main {
+      article{
+         display: grid;
+         grid-template-columns: repeat(3, 1fr)
+      }
+   }
+}
+
+@media (max-width: 700px) {
+   main {
+      article{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr)
+      }
+   }
+   
+}
